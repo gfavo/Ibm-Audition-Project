@@ -11,7 +11,7 @@
 
 #### 1.2 Edite as informacoes de acesso
 
-##### Abra o projeto back/bank-endpoint em algum IDE de sua preferência.
+##### Abra o projeto back/bank-endpoint em algum IDE de sua preferência. (o projeto é maven, portanto na hora de importar selecione importar um maven)
 
 ##### Edite o arquivo application.properties em src/main/resources:
 
