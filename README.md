@@ -50,6 +50,8 @@ spring.datasource.password=sua senha mysql
 ### Só deu tempo de fazer o cadastro, fiz um login também, depósito e transferência.
 ### Tem muita coisa que mudaria com mais tempo, como adicionar auth token (e session cookies), chamadas de um jeito mais seguro e bem construido, responsividade, visual mais bonito , e claro implementar a consulta. 
 
+### Também não deu tempo de implementar os testes.
+
 ### Cadastro: 
 
 <img width="1505" alt="Captura de Tela 2024-02-28 às 18 17 27" src="https://github.com/gfavo/TestIbm/assets/45298748/a3f1d142-6344-4480-93ac-bb014e5de4f6">
