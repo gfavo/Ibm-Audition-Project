@@ -1,0 +1,16 @@
+<p>deposito works!</p>
+ <div class="center">
+ <form [formGroup]="depositoForm" (ngSubmit)="submit()" class="form">
+
+    <label for="valor">Quantia a ser transferida: </label>
+  <input id="valor" type="number" formControlName="valor">
+
+  <button type="submit" [disabled]="!depositoForm.valid">Enviar</button>
+
+  <button >Não tenho conta, fazer cadastro!</button>
+
+</form>
+
+
+
+</div>

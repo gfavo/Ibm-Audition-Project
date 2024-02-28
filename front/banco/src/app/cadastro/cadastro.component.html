@@ -1,0 +1,27 @@
+ <div class="center">
+ <form [formGroup]="cadastroForm" (ngSubmit)="submit()" class="form">
+
+  <label for="nome-titular">Nome titular: </label>
+  <input id="nome-titular" type="text" formControlName="nomeTitular">
+
+  <label for="documento-titular">Documento titular: </label>
+  <input id="documento-titular" type="number" formControlName="documentoTitular">
+
+    <label for="senha-titular">Senha titular: </label>
+  <input id="senha-titular" type="password" formControlName="senhaTitular">
+  
+    <label for="numero-conta">Numero conta: </label>
+  <input id="numero-conta" type="number" formControlName="numeroConta">
+
+      <label for="endereco-titular">Endereço titular: </label>
+  <input id="endereco-titular" type="text" formControlName="enderecoTitular">
+
+  <button type="submit" [disabled]="!cadastroForm.valid">Enviar</button>
+
+  <button (click)="switchLogin()">Já tenho conta</button>
+
+</form>
+
+
+
+</div>

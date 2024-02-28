@@ -1,0 +1,18 @@
+ <div class="center">
+ <form [formGroup]="loginForm" (ngSubmit)="submit()" class="form">
+
+  <label for="documento-titular">Documento titular: </label>
+  <input id="documento-titular" type="number" formControlName="documentoTitular">
+
+    <label for="senha-titular">Senha titular: </label>
+  <input id="senha-titular" type="password" formControlName="senhaTitular">
+
+  <button type="submit" [disabled]="!loginForm.valid">Enviar</button>
+
+  <button (click)="switchCadastro()">Não tenho conta, fazer cadastro!</button>
+
+</form>
+
+
+
+</div>

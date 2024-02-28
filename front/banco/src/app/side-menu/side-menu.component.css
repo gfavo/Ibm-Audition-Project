@@ -1,0 +1,27 @@
+.sidemenu{
+  height: 100%;
+  width: 20%; 
+  position: fixed; 
+  top: 60px;
+  left: 0;
+  background-color: #ffffff; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+  border-right: 4px solid #633280;
+
+}
+
+.sidemenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+}

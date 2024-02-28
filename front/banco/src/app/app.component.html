@@ -1,0 +1,16 @@
+
+<div class="toolbar" role="banner">
+  <span>Banco XYZ</span>
+
+  <span class="center"> 
+    <div *ngIf="!autenticado">Não logado</div>
+    <div *ngIf="autenticado">Bem vindo {{usuario}}</div>
+  </span>
+</div>
+
+<body>
+  <app-side-menu *ngIf="autenticado" [cpf]="cpf"/>
+  <app-cadastro *ngIf="!autenticado && !login" (newItemEvent)="setUsuario($event)" (switchLoginEvent)="switchLoginCadastro()"/>
+  <app-login *ngIf="!autenticado && login" (newItemEvent)="setUsuario($event)" (switchCadastroEvent)="switchLoginCadastro()"/>
+  <router-outlet *ngIf="autenticado"></router-outlet>
+</body>
