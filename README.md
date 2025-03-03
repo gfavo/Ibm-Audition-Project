@@ -1,5 +1,7 @@
 # TestIbm
 
+# Esse é um projeto full-stack que fiz para um processo de seleção na ibm em que passei. Ele utiliza Angular e Java Springboot.
+
 ## Antes de tudo, verifique se suas portas 4200 e 8080 do localhost estão livres!
 
 ## Para rodar o backend: 
